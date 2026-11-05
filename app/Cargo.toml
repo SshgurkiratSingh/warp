@@ -334,6 +334,8 @@ warp_errors = { workspace = true, features = ["tokio-errors", "websocket-errors"
 aws-config = { version = "1.8.16", features = ["credentials-login"] }
 aws-credential-types = "1"
 aws-sdk-sts = { version = "1", default-features = false, features = ["default-https-client", "rt-tokio"] }
+aws-sdk-bedrock = { version = "1", default-features = false, features = ["default-https-client", "rt-tokio"] }
+aws-sdk-bedrockruntime = { version = "1", default-features = false, features = ["default-https-client", "rt-tokio"] }
 aws-types = "1"
 
 notify-debouncer-full.workspace = true
