@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use anyhow::{Context as _, Result};
 use async_stream::stream;
 use aws_config::BehaviorVersion;
